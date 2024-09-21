@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad326323-307c-4d9e-b70b-f00599702e19" name="Changes" comment="" />
+    <list default="true" id="ad326323-307c-4d9e-b70b-f00599702e19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/Blog-Template.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Blog-Template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/Post-Template.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Post-Template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/Главная.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/Статистика.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Статистика.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/Статистика.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/stat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilasite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilasite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilasite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilasite/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,20 +32,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2mN7Yc3zfDqQ3VYNQgbD14Cr930" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/gavrila_bot&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/gavrila_site"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\gavrila_site\gavrilasite\gavrilaapp\static" />
@@ -67,10 +89,22 @@
       <updated>1726905228802</updated>
       <workItem from="1726905235327" duration="21000" />
       <workItem from="1726905292861" duration="2611000" />
+      <workItem from="1726916197062" duration="3252000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -7,3 +7,9 @@ def index(request):
     }
     return render(request, 'gavrilaapp/index.html', context)
 
+
+def stat(request):
+    context = {
+        'products': ['Товар 1', 'Товар 2', 'Товар 3'],
+    }
+    return render(request, 'gavrilaapp/stat.html', context)
