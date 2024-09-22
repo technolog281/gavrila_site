@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gavrilaapp',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +77,12 @@ WSGI_APPLICATION = 'gavrilasite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'gavrila_db',
+        'USER': 'boss',
+        'PASSWORD': 'zvuk_nelegal8898',
+        'HOST': '192.168.42.129',
+        'PORT': 5432,
     }
 }
 
