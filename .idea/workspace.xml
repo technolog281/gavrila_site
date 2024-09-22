@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad326323-307c-4d9e-b70b-f00599702e19" name="Changes" comment="12">
-      <change afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/stat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Статистика.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Blog-Template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Post-Template.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Post-Template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/stat.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/stat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilasite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilasite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +83,8 @@
       <workItem from="1726916197062" duration="3281000" />
       <workItem from="1726921688605" duration="1950000" />
       <workItem from="1726925494582" duration="2914000" />
-      <workItem from="1726944058948" duration="1441000" />
+      <workItem from="1726944058948" duration="1489000" />
+      <workItem from="1726946355066" duration="2095000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1726920437848</created>
@@ -99,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726920437848</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="12">
+      <created>1726945557516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726945557516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
