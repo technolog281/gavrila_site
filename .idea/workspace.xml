@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad326323-307c-4d9e-b70b-f00599702e19" name="Changes" comment="12">
+    <list default="true" id="ad326323-307c-4d9e-b70b-f00599702e19" name="Changes" comment="БД привязана, данные поступают.&#10;Осталось:&#10;Валидация&#10;формирование отчёта&#10;идентификая через id телеграм (fastapi?) &#10;странца редактирования данных&#10;упаковка (докер)">
+      <change afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/price.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/accountant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/js/nicepage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Post-Template.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/Post-Template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/nicepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/nicepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/stat.css" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/static/stat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/blog/пост.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/stat.html" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/templates/gavrilaapp/stat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilaapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilaapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gavrilasite/gavrilasite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gavrilasite/gavrilasite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/gavrila_bot&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/html/Site2/index.html"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gavrila_site\gavrilasite\gavrilaapp\static\js" />
       <recent name="D:\gavrila_site\gavrilasite\gavrilaapp\static" />
+      <recent name="D:\gavrila_site\gavrilasite\gavrilaapp\static\js" />
       <recent name="D:\gavrila_site\gavrilasite\gavrilaapp\templates\gavrilaapp" />
     </key>
   </component>
@@ -88,7 +99,8 @@
       <workItem from="1726925494582" duration="2914000" />
       <workItem from="1726944058948" duration="1489000" />
       <workItem from="1726946355066" duration="4849000" />
-      <workItem from="1726987076715" duration="12736000" />
+      <workItem from="1726987076715" duration="12894000" />
+      <workItem from="1727239574291" duration="16172000" />
     </task>
     <task id="LOCAL-00001" summary="12">
       <created>1726920437848</created>
@@ -118,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726983310840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="БД привязана, данные поступают.&#10;Осталось:&#10;Валидация&#10;формирование отчёта&#10;идентификая через id телеграм (fastapi?) &#10;странца редактирования данных&#10;упаковка (докер)">
+      <created>1727000383519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727000383519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +156,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="БД привязана, данные поступают.&#10;Осталось:&#10;Валидация&#10;формирование отчёта&#10;идентификая через id телеграм (fastapi?) &#10;странца редактирования данных&#10;упаковка (докер)" />
+    <option name="LAST_COMMIT_MESSAGE" value="БД привязана, данные поступают.&#10;Осталось:&#10;Валидация&#10;формирование отчёта&#10;идентификая через id телеграм (fastapi?) &#10;странца редактирования данных&#10;упаковка (докер)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gavrila_site$main.coverage" NAME="main Coverage Results" MODIFIED="1727256501740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
